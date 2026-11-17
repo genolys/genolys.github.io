@@ -1,0 +1,28 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds",
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.genolys.vyom.host",
+      "sha256_cert_fingerprints": [
+        "26:A8:BE:12:56:A8:F6:01:56:C5:5F:3C:1F:D2:5E:57:87:1C:2F:AB:FC:FC:4F:01:0E:11:35:AD:78:C5:10:D4"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds",
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.genolys.vyom.receiver",
+      "sha256_cert_fingerprints": [
+        "26:A8:BE:12:56:A8:F6:01:56:C5:5F:3C:1F:D2:5E:57:87:1C:2F:AB:FC:FC:4F:01:0E:11:35:AD:78:C5:10:D4"
+      ]
+    }
+  }
+]
